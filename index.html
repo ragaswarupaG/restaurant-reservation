@@ -8,58 +8,67 @@
 </head>
 
 <body>
-<nav class="navbar">
+<nav class="navbar navbar-expand-lg bg-warning navbar-light">
 
-    <div class="navbar-brand">    
-        <img src="images/logo.png" alt="Logo" >
-    </div>
+    <div class="container d-flex justify-content-between w-100 " >
 
+        <div class="navbar-brand">    
+            <img src="images/logo.png" alt="Logo"  style = "height: 70px">
+        </div>
 
-    <ul>
-        <li>
-            <a href="">Contact us</a>
+    <ul class="navbar-nav d-flex gap-1">
+        <li class="nav-item">
+            <a href="" class="nav-link">Contact us</a>
         </li>
 
-        <li>
-            <a href="">Menu</a>
+        <li class="nav-item ">
+            <a href="" class="nav-link">Menu</a>
         </li>
 
-        <li>
-            <a href="">Reservation</a>
+        <li class="nav-item">
+            <a href="" class="nav-link">Reservation</a>
         </li>
 
-        <li>
-            <a href="">Feedback</a>
+        <li class="nav-item">
+            <a href="" class="nav-link">Feedback</a>
         </li>
     </ul>
 
-   
-
-
-
-
+</div>
 </nav> 
 
+
+
+ <div class="p-0 " style="height: 300px;">
 <div id="robotcarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <div class="carousel-inner h-10">
         <div class="carousel-item active">
             <img class="d-block w-100" src="images/pasta.jpg" alt="Pasta">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item h-100">
             <img class="d-block w-100" src="images/fries.jpg" alt="Fries">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item h-100">
             <img class="d-block w-100" src="images/pizza.jpg" alt="Pizza">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item h-100">
             <img class="d-block w-100" src="images/pizzameal.png" alt="Pizza meal">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item h-100">
             <img class="d-block w-100" src="images/ramen.jpg" alt="Ramen">
         </div>
     </div>
-    
+</div>
 
+
+<div class="container p-5 d-flex justify-content-between">
+
+    <button type="button" class="btn btn-dark" style="height: 100px; width: 200px;">Reserve a table</button>
+    <button type="button" class="btn btn-dark"  style="height: 100px; width: 200px;">View Menu</button>
+    <button type="button" class="btn btn-dark"  style="height: 100px; width: 200px;">Contact us</button>
+
+
+</div>
 
 
 
